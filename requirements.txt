@@ -1,0 +1,6 @@
+PySide6
+PySide6-Addons
+markdown-it-py
+mdit-py-plugins
+Pygments
+pytest

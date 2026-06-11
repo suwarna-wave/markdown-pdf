@@ -1,0 +1,121 @@
+/* Application chrome */
+
+QMainWindow {
+  background: #f4f6f8;
+}
+
+QToolBar {
+  background: #ffffff;
+  border: none;
+  border-bottom: 1px solid #d8dee4;
+  padding: 6px 8px;
+  spacing: 4px;
+}
+
+QToolBar QToolButton {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: #24292f;
+  padding: 6px 10px;
+}
+
+QToolBar QToolButton:hover {
+  background: #f3f4f6;
+  border-color: #d8dee4;
+}
+
+QToolBar QToolButton:pressed {
+  background: #e8ebef;
+}
+
+QStatusBar {
+  background: #ffffff;
+  border-top: 1px solid #d8dee4;
+  color: #57606a;
+}
+
+QStatusBar QLabel {
+  color: #57606a;
+  padding: 0 6px;
+}
+
+QSplitter::handle {
+  background: #d8dee4;
+  width: 1px;
+}
+
+QSplitter::handle:hover {
+  background: #afb8c1;
+}
+
+#panelHeader {
+  background: #ffffff;
+  border-bottom: 1px solid #e8ebef;
+}
+
+#panelTitle {
+  color: #24292f;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#formatBar {
+  background: #f6f8fa;
+  border: 1px solid #d8dee4;
+  border-radius: 8px;
+}
+
+#formatBar QToolButton {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: #24292f;
+  font-size: 13px;
+  min-width: 28px;
+  min-height: 28px;
+  padding: 2px 8px;
+}
+
+#formatBar QToolButton:hover {
+  background: #ffffff;
+  border-color: #d0d7de;
+}
+
+#formatBar QToolButton:pressed {
+  background: #e8ebef;
+}
+
+#formatBold {
+  font-weight: 700;
+}
+
+#formatItalic {
+  font-style: italic;
+}
+
+#formatUnderline {
+  text-decoration: underline;
+}
+
+#formatSeparator {
+  background: #d0d7de;
+}
+
+#editorFrame,
+#previewFrame {
+  background: #ffffff;
+}
+
+QPlainTextEdit {
+  background: #ffffff;
+  border: none;
+  color: #24292f;
+  padding: 16px;
+  selection-background-color: #b6d4fe;
+  selection-color: #24292f;
+}
+
+QPlainTextEdit:focus {
+  outline: none;
+}
